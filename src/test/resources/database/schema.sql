@@ -29,6 +29,3 @@ create table student_courses
     student_id int references students(student_id),
     course_id int references courses(course_id)
 );
-
-INSERT INTO GROUPS (group_id, group_name) values (1, 'gi-93'), (2, 'do-47');
-INSERT INTO STUDENTS (first_name, last_name, group_id) VALUES ('Alexey', 'Chrikov', 1);
